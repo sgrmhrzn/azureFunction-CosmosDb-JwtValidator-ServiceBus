@@ -1,0 +1,1 @@
+Contains Sample apps for cosmosdb triggers, azure-functions, Azure B2C Active Directory JWT-Token Validator, Azure Service Bus

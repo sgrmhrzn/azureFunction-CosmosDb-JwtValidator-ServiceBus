@@ -1,0 +1,23 @@
+{
+  "Proxies": {
+    "hello": {
+      "matchCondition": {
+        "methods": [
+          "GET"
+        ],
+        "route": "test"
+      },
+      "backendUri": "http://httpbin.org/ip"
+    },
+    "MyProxy": {
+      "matchCondition": {
+        "methods": [
+          "GET",
+          "POST"
+        ],
+        "route": "hello"
+      },
+      "backendUri": "https://functions14b93cd6.azurewebsites.net/api/getMessageWithValidation"
+    }
+  }
+}
